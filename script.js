@@ -3,13 +3,11 @@ const menuLinks = document.querySelector('.nav-links');
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav-links a");
 
-// បើក និងបិទ Mobile Menu
 menu.addEventListener('click', () => {
   menuLinks.classList.toggle('active');
   menu.classList.toggle('is-active');
 });
 
-// Scroll Highlighting (ប្តូរ pageYOffset ទៅ window.scrollY)
 window.addEventListener("scroll", () => {
   let current = "";
 
@@ -29,7 +27,6 @@ window.addEventListener("scroll", () => {
   });
 });
 
-// បិទ Menu វិញពេលចុចលើ Link ណាមួយ
 navLinks.forEach(n => n.addEventListener('click', () => {
   menuLinks.classList.remove('active');
   menu.classList.remove('is-active');
