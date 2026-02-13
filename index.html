@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <title>Lay Bunleap | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Kantumruy+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Kantumruy+Pro:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
@@ -15,96 +16,121 @@
     <span>Lay Bunleap</span>
   </div>
   
+  <nav class="nav-links">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+    <div class="theme-switch" id="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+  </nav>
+
   <div class="menu-toggle" id="mobile-menu">
     <span class="bar"></span>
     <span class="bar"></span>
     <span class="bar"></span>
   </div>
-
-  <nav class="nav-links">
-    <a href="#home" class="active">Home</a>
-    <a href="#work">Work</a>
-    <a href="#about">About Me</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
-  </nav>
 </header>
 
 <section id="home" class="hero">
-  <div class="container">
-    <h1>Hello, I'm Lay Bunleap</h1>
-    <p>បរិញ្ញាប័ត្រវិទ្យាសាស្រ្តកុំព្យូទ័រ • បរិញ្ញាប័ត្ររងគិលានុបដ្ឋាក</p>
-    <a href="#work" class="btn">View My Work</a>
-  </div>
-</section>
+  <div class="hero-wrapper">
+    <div class="hero-image left">
+      <img src="nurse.jpg.JPG" alt="Healthcare">
+    </div>
 
-<section id="work" class="section">
-  <h2>My Work</h2>
-  <div class="grid">
-    <div class="card">មន្រ្តីគិលានុបដ្ឋានមធ្យម</div>
-    <div class="card">Mobile App UI</div>
-    <div class="card">Dashboard System</div>
+    <div class="hero-content">
+      <div class="badge-new">សូមស្វាគមន៍ការមកដល់គេហទំព័រ</div>
+      <h1>Hello, I'm Lay Bunleap</h1>
+      <p>មន្ត្រីរាជការ និងជាអ្នកជំនាញបច្ចេកវិទ្យា ដែលមានមូលដ្ឋានគ្រឹះរឹងមាំទាំងផ្នែក <strong>សុខាភិបាល</strong> និង <strong>វិទ្យាសាស្ត្រកុំព្យូទ័រ</strong>។</p>
+      <a href="#work" class="btn">View My Work</a>
+    </div>
+
+    <div class="hero-image right">
+      <img src="IT.jpg" alt="Developer">
+    </div>
   </div>
 </section>
 
 <section id="about" class="section alt about">
-  <h2>About Me</h2>
-  <p class="about-text">
-    សួស្តី! ខ្ញុំបាទ ឡាយ ប៊ុនលាភ។ ខ្ញុំគឺជាបុគ្គលដែលមានចំណេះដឹង និងជំនាញច្បាស់លាស់ក្នុងវិស័យពីរខុសគ្នា ប៉ុន្តែអាចបំពេញឱ្យគ្នាទៅវិញទៅមកយ៉ាងល្អប្រសើរ គឺ បច្ចេកវិទ្យា (IT) និង សុខាភិបាល (Nursing)។ ជាមួយនឹងមូលដ្ឋានគ្រឹះនេះ ខ្ញុំត្រៀបខ្លួនរួចជាស្រេចក្នុងការនាំយកដំណោះស្រាយទំនើបៗមកអនុវត្តក្នុងវិស័យការងារ។
-  </p>
-
-  <h3 class="sub-title">📚 ប្រវត្តិការសិក្សា (Academic Background)</h3>
-  <ul class="education">
-    <li>
-      <strong>បរិញ្ញាប័ត្រ វិទ្យាសាស្ត្រកុំព្យូទ័រ</strong><br>
-      Bachelor of Computer Science<br>
-      <span>ជំនាញ៖ Software Development, Data Management, Digital Technology</span>
-    </li>
-    <li>
-      <strong>បរិញ្ញាប័ត្ររង គិលានុបដ្ឋាក</strong><br>
-      Associate Degree of Nursing<br>
-      <span>ជំនាញ៖ Patient Care, Medical Ethics, First Aid</span>
-    </li>
-  </ul>
-
-  <h2 style="margin-top:60px;">🚀 ជំនាញសំខាន់ៗ</h2>
-  <div class="competency-box">
-    <div class="competency">
-      <h3>💻 Tech Stack</h3>
-      <ul>
-        <li>Software Development: ការអភិវឌ្ឍកម្មវិធី</li>
-        <li>Data Management: គ្រប់គ្រងទិន្នន័យ</li>
-        <li>Problem Solving: Logic & Analysis</li>
-      </ul>
+    <div class="container">
+      <h2 class="section-title">ជីវប្រវត្តិ និងការតស៊ូ</h2>
+      <div class="story-container">
+        <div class="story-main-text">
+          <p>លោក <strong>ឡាយ ប៊ុនលាប</strong> គឺជាកូនខ្មែរដែលមានស្រុកកំណើតនៅ <strong>ខេត្តកំពត</strong>។ ជីវិតរបស់លោកបានឆ្លងកាត់នូវព្យុះភ្លៀង និងការលំបាកជាច្រើន ប៉ុន្តែលោកមិនដែលបោះបង់ចោលនូវក្ដីស្រមៃឡើយ持</p>
+        </div>
+        <div class="education-grid">
+          <div class="edu-card">
+            <i class="fas fa-user-md"></i>
+            <h3>បរិញ្ញាបត្ររងគិលានុបដ្ឋាក</h3>
+            <p>ជំនាញដែលកើតចេញពីទឹកចិត្តចង់ជួយសង្គ្រោះជីវិតមនុស្ស។</p>
+          </div>
+          <div class="edu-card">
+            <i class="fas fa-code"></i>
+            <h3>បរិញ្ញាបត្រវិទ្យាសាស្ត្រកុំព្យូទ័រ</h3>
+            <p>ជំនាញបច្ចេកវិទ្យាដែលឆ្លើយតបនឹងសម័យកាលទំនើប។</p>
+          </div>
+        </div>
+        <div class="highlight-box">
+          <h3><i class="fas fa-history"></i> បទពិសោធន៍ដ៏ជូរចត់</h3>
+          <p>ធ្លាប់ឆ្លងកាត់ការងារនៅគ្លីនិកឯកជនក្នុងស្រុកទឹកឈូ ខេត្តកំពត ដោយធ្វើការយ៉ាងធ្ងន់ធ្ងរទាំងយប់ទាំងថ្ងៃ។</p>
+        </div>
+        <div class="success-box">
+          <h3><i class="fas fa-medal"></i> ជោគជ័យបច្ចុប្បន្ន</h3>
+          <p>មន្ត្រីកិច្ចព្រមព្រៀង (ក្របខណ្ឌរដ្ឋ) បម្រើការងារនៅខេត្តសៀមរាប持</p>
+        </div>
+      </div>
     </div>
-    <div class="competency">
-      <h3>🩺 Healthcare</h3>
-      <ul>
-        <li>Patient Care: ការថែទាំអ្នកជំងឺ</li>
-        <li>Medical Ethics: សីលធម៌វេជ្ជសាស្ត្រ</li>
-        <li>Health Record: គ្រប់គ្រងឯកសារ</li>
-      </ul>
+  </section>
+
+<section id="work" class="section">
+  <h2 class="section-title">My Work</h2>
+  <div class="grid">
+    <div class="card">
+        <i class="fas fa-hospital-user icon-work"></i>
+        <h3>មន្រ្តីគិលានុបដ្ឋានមធ្យម</h3>
+    </div>
+    <div class="card">
+        <i class="fas fa-mobile-alt icon-work"></i>
+        <h3>Mobile App UI</h3>
+    </div>
+    <div class="card">
+        <i class="fas fa-laptop-code icon-work"></i>
+        <h3>Dashboard System</h3>
     </div>
   </div>
 </section>
 
-<section id="experience" class="section">
-  <h2>Experience</h2>
+<section id="experience" class="section alt">
+  <h2 class="section-title">Professional Experience</h2>
   <ul class="timeline">
     <li><strong>2024</strong> – ELITA POLYCLINIC AND MATERNITY</li>
     <li><strong>2025</strong> – KNAT HEALTHCARE</li>
-    <li><strong>2026</strong> – Web Freelancer</li>
+    <li><strong>2026</strong> – Web Freelancer / Government Official</li>
   </ul>
 </section>
 
-<section id="contact" class="section alt">
-  <h2>Contact Me</h2>
+<section id="contact" class="section">
+  <h2 class="section-title">Contact Me</h2>
   <form action="https://formspree.io/f/laybunleap100@gmail.com" method="POST" class="contact-form">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
     <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-    <button type="submit">Send Message</button>
+    <button type="submit" class="btn" style="border:none; width:100%; cursor:pointer;">Send Message</button>
   </form>
+
+  <div class="social-links">
+    <a href="https://web.facebook.com/leapkhmer.leapkhmer" class="social-icon facebook" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://t.me/MR_BUN_LEAP_9999" class="social-icon telegram" target="_blank">
+        <i class="fab fa-telegram-plane"></i>
+    </a>
+    <a href="mailto:laybunleap99@gmail.com" class="social-icon email">
+        <i class="fas fa-envelope"></i>
+    </a>
+  </div>
 </section>
 
 <footer>
