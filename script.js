@@ -8,8 +8,7 @@ const sections = document.querySelectorAll("section");
 AOS.init({
     duration: 800,
     once: true,
-    offset: 100,
-    disable: 'mobile'
+    offset: 100
 });
 
 themeToggle.addEventListener('click', () => {
@@ -51,7 +50,7 @@ window.addEventListener("scroll", () => {
             link.classList.add("active");
         }
     });
-}, { passive: true });
+});
 
 navLinks.forEach(n => n.addEventListener('click', () => {
     menuLinks.classList.remove('active');
