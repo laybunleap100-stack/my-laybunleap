@@ -5,6 +5,12 @@ const menuLinks = document.querySelector('.nav-links');
 const navLinks = document.querySelectorAll(".nav-links a");
 const sections = document.querySelectorAll("section");
 
+AOS.init({
+    duration: 1000,
+    once: true,
+    offset: 100
+});
+
 themeToggle.addEventListener('click', () => {
     const isDark = body.hasAttribute('data-theme');
     if (isDark) {
@@ -33,7 +39,7 @@ window.addEventListener("scroll", () => {
     let current = "";
     sections.forEach((section) => {
         const sectionTop = section.offsetTop;
-        if (window.pageYOffset >= sectionTop - 150) {
+        if (window.scrollY >= sectionTop - 200) {
             current = section.getAttribute("id");
         }
     });

@@ -7,8 +7,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Kantumruy+Pro:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+
+<a href="https://t.me/MR_BUN_LEAP_9999" class="floating-contact" target="_blank">
+  <i class="fab fa-telegram-plane"></i>
+</a>
 
 <header class="navbar">
   <div class="logo">
@@ -35,16 +40,19 @@
 </header>
 
 <section id="home" class="hero">
-  <div class="hero-wrapper">
+  <div class="hero-wrapper" data-aos="fade-up">
     <div class="hero-image left">
       <img src="nurse.jpg.JPG" alt="Healthcare">
     </div>
 
     <div class="hero-content">
-      <div class="badge-new">សូមស្វាគមន៍ការមកដល់គេហទំព័រ</div>
-      <h1>Hello, I'm Lay Bunleap</h1>
+      <div class="badge-new">WELCOME TO MY PORTFOLIO</div>
+      <h1>Hello, I'm <span class="text-gradient">Lay Bunleap</span></h1>
       <p>មន្ត្រីរាជការ និងជាអ្នកជំនាញបច្ចេកវិទ្យា ដែលមានមូលដ្ឋានគ្រឹះរឹងមាំទាំងផ្នែក <strong>សុខាភិបាល</strong> និង <strong>វិទ្យាសាស្ត្រកុំព្យូទ័រ</strong>។</p>
-      <a href="#work" class="btn">View My Work</a>
+      <div class="hero-btns">
+        <a href="#work" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
     </div>
 
     <div class="hero-image right">
@@ -55,28 +63,28 @@
 
 <section id="about" class="section alt about">
     <div class="container">
-      <h2 class="section-title">ជីវប្រវត្តិ និងការតស៊ូ</h2>
+      <h2 class="section-title" data-aos="fade-up">ជីវប្រវត្តិ និងការតស៊ូ</h2>
       <div class="story-container">
-        <div class="story-main-text">
+        <div class="story-main-text" data-aos="fade-up">
           <p>លោក <strong>ឡាយ ប៊ុនលាប</strong> គឺជាកូនខ្មែរដែលមានស្រុកកំណើតនៅ <strong>ខេត្តកំពត</strong>។ ជីវិតរបស់លោកបានឆ្លងកាត់នូវព្យុះភ្លៀង និងការលំបាកជាច្រើន ប៉ុន្តែលោកមិនដែលបោះបង់ចោលនូវក្ដីស្រមៃឡើយ</p>
         </div>
         <div class="education-grid">
-          <div class="edu-card">
+          <div class="edu-card" data-aos="zoom-in">
             <i class="fas fa-user-md"></i>
             <h3>បរិញ្ញាបត្ររងគិលានុបដ្ឋាក</h3>
             <p>ជំនាញដែលកើតចេញពីទឹកចិត្តចង់ជួយសង្គ្រោះជីវិតមនុស្ស។</p>
           </div>
-          <div class="edu-card">
+          <div class="edu-card" data-aos="zoom-in" data-aos-delay="100">
             <i class="fas fa-code"></i>
             <h3>បរិញ្ញាបត្រវិទ្យាសាស្ត្រកុំព្យូទ័រ</h3>
             <p>ជំនាញបច្ចេកវិទ្យាដែលឆ្លើយតបនឹងសម័យកាលទំនើប</p>
           </div>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box" data-aos="fade-right">
           <h3><i class="fas fa-history"></i> បទពិសោធន៍ដ៏ជូរចត់</h3>
           <p>ធ្លាប់ឆ្លងកាត់ការងារនៅគ្លីនិកឯកជនក្នុងស្រុកទឹកឈូ ខេត្តកំពត ដោយធ្វើការយ៉ាងធ្ងន់ធ្ងរទាំងយប់ទាំងថ្ងៃ។</p>
         </div>
-        <div class="success-box">
+        <div class="success-box" data-aos="fade-left">
           <h3><i class="fas fa-medal"></i> ជោគជ័យបច្ចុប្បន្ន</h3>
           <p>មន្ត្រីកិច្ចព្រមព្រៀង (ក្របខណ្ឌរដ្ឋ) បម្រើការងារនៅខេត្តសៀមរាប</p>
         </div>
@@ -85,42 +93,47 @@
   </section>
 
 <section id="work" class="section">
-  <h2 class="section-title">My Work</h2>
+  <h2 class="section-title" data-aos="fade-up">My Work</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-aos="flip-left">
         <i class="fas fa-hospital-user icon-work"></i>
         <h3>មន្រ្តីគិលានុបដ្ឋាកមធ្យម</h3>
+        <p>បម្រើសេវាសុខាភិបាលជូនប្រជាពលរដ្ឋ</p>
     </div>
-    <div class="card">
+    <div class="card" data-aos="flip-left" data-aos-delay="100">
         <i class="fas fa-mobile-alt icon-work"></i>
         <h3>Mobile App UI</h3>
+        <p>រចនាផ្ទៃកម្មវិធីទូរស័ព្ទទំនើប</p>
     </div>
-    <div class="card">
+    <div class="card" data-aos="flip-left" data-aos-delay="200">
         <i class="fas fa-laptop-code icon-work"></i>
         <h3>Dashboard System</h3>
+        <p>ប្រព័ន្ធគ្រប់គ្រងទិន្នន័យកម្រិតខ្ពស់</p>
     </div>
   </div>
 </section>
 
 <section id="experience" class="section alt">
-  <h2 class="section-title">Professional Experience</h2>
+  <h2 class="section-title" data-aos="fade-up">Professional Experience</h2>
   <ul class="timeline">
-    <li><strong>2024</strong> – ELITA POLYCLINIC AND MATERNITY</li>
-    <li><strong>2025</strong> – KNAT HEALTHCARE</li>
-    <li><strong>2026</strong> – Web Freelancer / Government Official</li>
+    <li data-aos="fade-left"><strong>2024</strong> – ELITA POLYCLINIC AND MATERNITY</li>
+    <li data-aos="fade-left" data-aos-delay="100"><strong>2025</strong> – KNAT HEALTHCARE</li>
+    <li data-aos="fade-left" data-aos-delay="200"><strong>2026</strong> – Web Freelancer / Government Official</li>
   </ul>
 </section>
 
 <section id="contact" class="section">
-  <h2 class="section-title">Contact Me</h2>
-  <form action="https://formspree.io/f/laybunleap100@gmail.com" method="POST" class="contact-form">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-    <button type="submit" class="btn" style="border:none; width:100%; cursor:pointer;">Send Message</button>
-  </form>
+  <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+  <div class="contact-wrapper">
+    <form action="https://formspree.io/f/laybunleap100@gmail.com" method="POST" class="contact-form" data-aos="fade-right">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn primary" style="width:100%;">Send Message</button>
+    </form>
+  </div>
 
-  <div class="social-links">
+  <div class="social-links" data-aos="zoom-in">
     <a href="https://web.facebook.com/leapkhmer.leapkhmer" class="social-icon facebook" target="_blank">
         <i class="fab fa-facebook-f"></i>
     </a>
@@ -137,6 +150,7 @@
   <p>© 2026 Lay Bunleap. All rights reserved.</p>
 </footer>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
